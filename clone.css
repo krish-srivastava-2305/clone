@@ -1,0 +1,367 @@
+.search{
+    width:300px;
+    height:20px ;
+    border-radius: 5px;
+    border: solid 0.01mm;
+}
+.center{
+ padding-left: 33%;
+}
+.logo{
+    padding-right: 0.5%;
+    border-right:0.1mm solid rgb(4, 4, 206);
+}
+.header{
+    text-align: center;
+}
+.login{
+    border-radius: 10px;
+    border: solid rgba(28, 0, 212, 0.744);
+    width: 6%;
+    min-height: 2%;
+    background-color: rgba(28, 0, 212, 0.744);
+    
+}
+.login:hover{
+    
+    background-color: rgba(28, 0, 212, 0.885);
+}
+.former{
+    font-size: x-small;
+    color: rgb(11, 11, 214);
+    padding-left: 0.5%;
+}
+.bar{
+    padding-left: 1%;
+    padding-top: 0.8%;
+    padding-right: 1%;
+}
+.table{
+    display:table;
+    clear: both;
+    content: "";
+}
+.a{
+    float: left;
+    height: auto;
+    width: 30%;
+    padding: 0 10px;
+    color: rgb(121, 121, 214);
+    
+    /* border-right: 0.1mm solid blue; */
+    
+}
+.line{
+    border-bottom: 1mm solid rgb(228, 228, 123);
+}
+
+.b{
+    float: right;
+    height: auto;
+    width: 65%;
+    padding: 0 10px;
+}
+.sponsors{
+    width: 2000px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 0.1mm solid rgb(152, 148, 148);
+    border-top: 0.1mm solid rgb(152, 148, 148);
+    /* transform: translate3d(-50px);
+    transition: all 5s linear 1s; */
+    align-items: center;
+    
+}
+.Hello{
+    margin-left: auto;
+    margin-right: 0;
+    width:70%;
+    float: right;
+    padding: 2%;
+    position: relative;
+    
+}
+.Hello img:hover{
+    translate: 0px -20px;
+    transition: all 1s ease-in-out;
+}
+.s{
+    padding: 3%;
+    /* transform: translate3d(-50px);
+    transition: all 5s linear 1s; */
+}
+.l{
+    border-radius: 4%;
+    width: 500px;
+    height: auto;
+    display: block;
+    padding: 2%;
+}
+.jobs{
+    display: flex;
+    position: relative;
+    grid-template-columns:repeat(2,1fr);
+    padding: 3%;
+    text-align: center;
+}
+.lpm{
+    display:flex;
+    align-items: center;
+    
+}
+.learn,.mentorship,.practice{
+    padding: 5%;
+    overflow: auto;
+    }
+.learn img:hover{
+    transform: translateY(-20px);
+    transition: all 1s ease-in-out;
+}
+.practice img:hover{
+    transform: translateY(-20px);
+    transition: all 1s ease-in-out;
+}
+.mentorship img:hover{
+    transform: translateY(-20px);
+    transition: all 1s ease-in-out;
+}
+.r{
+    border-radius: 10%;
+    position: relative;
+    width: 80%;
+    height: 40%;
+}
+.text5{
+    position:absolute;
+    top:187.5%;
+    left: 12.8%;
+    text-decoration: transparent;
+}
+.text6{
+    position:absolute;
+    top:187.5%;
+    left: 46%;
+    text-decoration: transparent;
+}
+.text7{
+    position:absolute;
+    top:187.5%;
+    left: 78%;
+    text-decoration: transparent;
+}
+.explore{
+    display: flex;
+}
+.text1{
+    position:absolute;
+    top: 222.5%;
+    left:2%;
+}
+.text2{
+    position: absolute;
+    top:222.5%;
+    left:27%;
+    text-decoration: transparent;
+}
+.text3{
+    position: absolute;
+    top:222.5%;
+    left: 52%;
+    text-decoration: transparent;
+}
+.text4{
+    position: absolute;
+    top: 222.5%;
+    left:76.5%;
+    text-decoration: transparent;
+}
+.head1{
+    text-align: center;
+}
+#i1,#i2,#i3,#i4,#i5,#i6,#i7,#i8{
+    position: relative;
+    padding: 3%;
+    width:82%;
+    height:82%;
+}
+.i img:hover{
+    transform: translateY(-20px);
+    transition: all 1s ease-in-out;
+}
+.prev{
+    cursor: pointer;
+    position: absolute;
+    top: 130%;
+    left: 12%;
+    font-weight: bolder;
+    color: rgb(78, 8, 145);
+    animation: forwards;
+}
+.next{
+    cursor: pointer;
+    position: absolute;
+    top: 130%;
+    left: 82%;
+    font-weight: bolder;
+    color: rgb(78, 8, 145);
+}
+.prev:hover{
+    color: rgb(185, 99, 99);
+    cursor:pointer;
+    transform: translateX(-8px);
+}
+.next:hover{
+    color: rgb(185, 99, 99);
+    cursor:pointer;
+    transform: translateX(8px);
+}
+.getHired{
+    display: flex;
+}
+.ankit{
+    padding: 5%;
+    text-align: center;
+}
+.oppurtunities{
+    text-align: center;
+    display: flex;
+}
+fieldset{
+    color: rgb(156, 158, 158);
+    border-radius: 2%;
+    
+}
+.head1{
+    color: rgb(30, 55, 99);
+}
+.d{
+    padding: 2%;
+    border-radius: 5%;
+    display: flex;
+}
+.m{
+    color: rgb(147, 147, 214);
+}
+.f1{
+    border-radius: 5px 5px 5px 5px;
+    border: 0cm;
+}
+.o{
+    display: flex;
+}
+.f2,.f3{
+    border-radius:20px 20px 20px 20px;
+    color: rgb(81, 91, 182);
+}
+.n1{
+    display: flex;
+    padding-left: 30%;
+}
+.n{
+    border-radius: 5px 5px 0px 5px;
+}
+.n2{
+    display: flex;
+    padding-left: 38.2%;
+}
+.nn1{
+    color: coral;
+    border: 0.1mm solid rgba(0, 0, 0, 0.192);
+    padding:2%;
+    border-radius: 8px 0px 0px 8px;
+
+}
+.nn2{
+    color: rgb(85, 34, 15);
+    border: 0.1mm solid rgba(0, 0, 0, 0.192);
+    padding:2%
+}
+.nn3{
+    color: rgb(23, 20, 202);
+    border: 0.1mm solid rgba(0, 0, 0, 0.192);
+    padding:2%;
+    border-radius: 0px 8px 0px 0px;
+}
+.nn4{
+    color: rgb(73, 0, 109);
+    border: 0.1mm solid rgba(0, 0, 0, 0.192);
+    padding:2%;
+    border-radius: 0px 0px 0px 8px;
+
+}
+.nn5{
+    color: rgb(39, 194, 5);
+    border: 0.1mm solid rgba(0, 0, 0, 0.192);
+    padding:2%
+}
+.nn6{
+    color: rgb(94, 110, 203);
+    border: 0.1mm solid rgba(0, 0, 0, 0.192);
+    padding:2%;
+    border-radius: 0px 8px 8px 0px;
+}
+.header{
+    display: flex;
+}
+.text8{
+    position:absolute;
+    top: 269.5%;
+    left:2%;
+}
+.text9{
+    position: absolute;
+    top:269.5%;
+    left:27%;
+    text-decoration: transparent;
+}
+.text10{
+    position: absolute;
+    top:269.5%;
+    left: 52%;
+    text-decoration: transparent;
+}
+.text11{
+    position: absolute;
+    top: 269.5%;
+    left:76.5%;
+    text-decoration: transparent;
+}
+.text12{
+    position: absolute;
+    top:14%;
+    left: 4.5%;
+    text-decoration: transparent;
+
+}
+.text13{
+    position: absolute;
+    top:14%;
+    left: 24.5%;
+    text-decoration: transparent;
+
+}
+.text14{
+    position: absolute;
+    top:15%;
+    left: 72%;
+    text-decoration: transparent;
+}
+.text15{
+    position: absolute;
+    top:15.5%;
+    left: 4%;
+    text-decoration: transparent;
+
+}
+.text16{
+    position: absolute;
+    top:15.5%;
+    left: 25%;
+    text-decoration: transparent;
+}
+.text17{
+    position: absolute;
+    top:45%;
+    left: 72%;
+    text-decoration: transparent;
+}
